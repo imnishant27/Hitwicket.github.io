@@ -1,0 +1,705 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+
+    <!--- Icon --->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+
+
+    <!-- MDBootstrap -->
+    
+       <!-- Font Awesome -->
+        <link
+           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+           rel="stylesheet"
+           />
+           <!-- Google Fonts -->
+        <link
+           href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+           rel="stylesheet"
+           />
+           <!-- MDB -->
+        <link
+           href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.3.0/mdb.min.css"
+           rel="stylesheet"
+           />
+    <title>HitWicket</title>
+
+
+
+
+
+  </head>
+  <body>
+    
+
+    <!-- ************************************Navbarr******************************************-->
+
+    
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="images/1.png" width="80px" height="80px" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item me-3">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item me-3">
+                    <a class="nav-link active" aria-current="page" href="#livescore">Live Scores</a>
+                  </li>
+                  <li class="nav-item me-3">
+                    <a class="nav-link active" aria-current="page" href="#newsfeed">News</a>
+                  </li>
+                  <li class="nav-item me-3">
+                    <a class="nav-link active" aria-current="page" href="#">Memes</a>
+                  </li>
+                  <li class="nav-item dropdown me-3">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Series
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">India tour Of England 2022</a></li>
+                      <li><a class="dropdown-item" href="#">New Zealand tour of Sri Lanka</a></li>
+                      <li><a class="dropdown-item" href="#">Bangladesh tour of West Indies</a></li>
+                      <li><a class="dropdown-item" href="#">Australia tour of Pakistan</a></li>
+                      <li><a class="dropdown-item" href="#">Scotland tour of Netherland</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+
+          <!-- ********************************************Carosal********************************************-->
+
+
+
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/PicsArt_07-17-09.49.42.jpg" id="height" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5> <b>Reece Topley stars with ball as England level series</b> </h5>
+                  <p>Topley's carrer best 6/25 sends India hurtling to 100-run defeat.</p>
+                </div>
+            </div>
+              <div class="carousel-item">
+                <img src="images/PicsArt_07-17-09.02.08.jpg" id="height" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5> <b> Jasprit Bumrah: The Reality Era Superstar</b></h5>
+                  <p>Bumrah wreaked absolute havoc in the first ODI, returning figures of 6/19 in an exceptional spell of fast bowling that ripped through England's batting line-up at The Oval.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/PicsArt_07-17-09.50.36.jpg" id="height" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5><b> Martin Guptill Masterclass</b></h5>
+                  <p>Guptill smashed a century against Ireland and smashed bowlers out of the ground.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden" id="livescore">Next</span>
+            </button>
+          </div>
+    
+
+
+        <!-- *********************************Live score section****************************************** -->
+        <br>
+        <br>
+        <section > 
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="container-fluid bg-dark bg-gradient ">
+                    <div class="row">
+                      <div class="col-sm-3 text-center text-white" style="border: 1px solid black;">
+                        <p class="text-white">South Africa v Sri Lanka</p> <hr> IND 204-2(25) <br> WI are yet to Bat <br> <p class="text-success">SA won by 5 wickets</p> 
+                      </div>
+                      <div class="col-sm-3 text-center text-light" style="border: 1px solid black;" >
+                        <p class="text-white">South Africa v Sri Lanka</p>  <hr> IND 204-2(25) <br> WI are yet to Bat<br> <p class="text-success">SA won by 5 wickets</p> 
+                      </div>
+                      <div class="col-sm-3 text-center text-light" style="border: 1px solid black;">
+                        <p class="text-white">South Africa v Sri Lanka</p> <hr> IND 204-2(25) <br> WI are yet to Bat<br> <p class="text-success">SA won by 5 wickets</p> 
+                      </div>
+                      <div class="col-sm-3 text-center text-light" style="border: 1px solid black;">
+                        <p class="text-white">South Africa v Sri Lanka</p> <hr> IND 204-2(25) <br> WI are yet to Bat<br> <p class="text-success">SA won by 5 wickets</p> 
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                <div class="container-fluid bg-dark bg-gradient">
+                    <div class="row">
+                      <div class="col-sm-3 text-center text-light" style="border: 1px solid black;">
+                        <p class="text-white">South Africa v Sri Lanka</p> <hr> IND 204-2(25) <br> WI are yet to Bat<br> <p class="text-success">SA won by 5 wickets</p> 
+                      </div>
+                      <div class="col-sm-3 text-center text-light" style="border: 1px solid black;" >
+                        <p class="text-white">South Africa v Sri Lanka</p>  <hr> IND 204-2(25) <br> WI are yet to Bat<br> <p class="text-success">SA won by 5 wickets</p> 
+                      </div>
+                      <div class="col-sm-3 text-center text-light" style="border: 1px solid black;">
+                        <p class="text-white">South Africa v Sri Lanka</p> <hr> IND 204-2(25) <br> WI are yet to Bat<br> <p class="text-success">SA won by 5 wickets</p> 
+                      </div>
+                      <div class="col-sm-3 text-center text-light" style="border: 1px solid black;">
+                        <p class="text-white">South Africa v Sri Lanka</p> <hr> IND 204-2(25) <br> WI are yet to Bat<br> <p class="text-success">SA won by 5 wickets</p> 
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                <div class="container-fluid bg-dark bg-gradient">
+                    <div class="row">
+                      <div class="col-sm-3 text-center text-light" style="border: 1px solid black;">
+                        <p>South Africa v Sri Lanka</p> <hr> IND 204-2(25) <br> WI are yet to Bat <br><p class="text-success">SA won by 5 wickets</p>
+                      </div>
+                      <div class="col-sm-3 text-center text-light" style="border: 1px solid black;" >
+                        <p>South Africa v Sri Lanka</p>  <hr> IND 204-2(25) <br> WI are yet to Bat<br> <p class="text-success">SA won by 5 wickets</p>
+                      </div>
+                      <div class="col-sm-3 text-center text-light" style="border: 1px solid black;">
+                        <p>South Africa v Sri Lanka</p> <hr> IND 204-2(25) <br> WI are yet to Bat<br> <p class="text-success">SA won by 5 wickets</p>
+                      </div>
+                      <div class="col-sm-3 text-center text-light" style="border: 1px solid black;">
+                        <p>South Africa v Sri Lanka</p> <hr> IND 204-2(25) <br> WI are yet to Bat<br> <p class="text-success">SA won by 5 wickets</p>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+        
+        <br>
+        
+        <!-- *************************** CARD SECTION ***************************************-->
+        <section>
+                  
+                  <div class="container bg- bg-gradient">
+                    <hr>
+                    <h2 class="text-center"> <b> INTERNATIONAL RECORDS</b></h2>
+                  <hr>
+                    <div class="row  row-cols-2 row-cols-md-3 row-cols-lg-6 g-4">
+                        <div class="col">
+                            <div class="card h-100 shadow">
+                                <img src="images/sachin.jpg" class="card-img-top" alt="..." style="height:150px;">
+                                <div class="card-body">
+                                  <p class="text-center m-auto"><b>MOST RUNS</b></p>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                  <li class="list-group-item text-center">Sachin Tendulkar</li>
+                                  <li class="list-group-item text-center">34357 Runs </li>
+                                </ul>
+                              </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 shadow">
+                                <img src="images/murli.jpg" class="card-img-top" alt="..." style="height:150px;">
+                                <div class="card-body">
+                                    <p class="text-center m-auto"><b>MOST WICKETS</b></p>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                  <li class="list-group-item text-center">Muthiah Muralidaran</li>
+                                  <li class="list-group-item text-center">1347 Wickets</li>
+                                </ul>
+                              </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 shadow">
+                                <img src="images/gay.jpg" class="card-img-top" alt="..." style="height:150px;">
+                                <div class="card-body">
+                                  <p class="text-center m-auto"><b>MOST SIXES</b></p>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                  <li class="list-group-item text-center">Chris Gayle</li>
+                                  <li class="list-group-item text-center">553 Sixes</li>
+                                </ul>
+                              </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 shadow">
+                                <img src="images/sachin.jpg" class="card-img-top" alt="..." style="height:150px;">
+                                <div class="card-body">
+                                  <p class="text-center m-auto"><b>MOST HUNDREDS</b></p>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                  <li class="list-group-item text-center">Sachin Tendulkar</li>
+                                  <li class="list-group-item text-center">100 Hundreds</li>
+                                </ul>
+                              </div>
+                        </div>
+                        <div class="col ">
+                            <div class="card h-100 shadow">
+                                <img src="images/dhoni.jpg" class="card-img-top" alt="..." style="height:150px;">
+                                <div class="card-body">
+                                  <p class="text-center m-auto"><b>MOST STUMPINGS</b></p>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                  <li class="list-group-item text-center">MS Dhoni</li>
+                                  <li class="list-group-item text-center">195 Stumpings</li>
+                                </ul>
+                              </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 shadow">
+                                <img src="images/jawrdhne.jpg" class="card-img-top" alt="..." style="height:150px;">
+                                <div class="card-body">
+                                 <p class="text-center m-auto"><b>MOST CATCHCES</b></p>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                  <li class="list-group-item text-center">Mahela Jayawardhane</li>
+                                  <li class="list-group-item text-center">440 Catches</li>
+                                </ul>
+                              </div>
+                      </div>
+                    </div>
+        </section>
+        <br><br> 
+        
+
+        <!-- ***********************************Videosss****************************************-->
+
+        <section>
+          
+          <div class="container">
+            <hr>
+                <h2 class="text-center"> <b> MATCH HIGHLIGHTS</b></h2>
+            <hr>
+
+            <div class="row  row-cols-2  row-cols-lg-3 g-4 pt-4">
+              
+              <iframe width="500" height="200" src="https://www.youtube.com/embed/HXU5mUOqCAU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+           
+            
+                <iframe width="500" height="200" src="https://www.youtube.com/embed/ZOJvkrnjqwU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                
+                <iframe width="500" height="200" src="https://www.youtube.com/embed/LmAZRZpXegQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
+                <iframe width="560" height="200" src="https://www.youtube.com/embed/HXU5mUOqCAU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
+                <iframe width="560" height="200" src="https://www.youtube.com/embed/ZOJvkrnjqwU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                
+                <iframe width="560" height="200" src="https://www.youtube.com/embed/LmAZRZpXegQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <br id="newsfeed"> <br>
+
+
+        </section>
+        
+        <br> <br>
+        <!-- *******************************News Feed******************************************* -->
+
+        <section>
+        <div class="container">
+        <hr>
+        <h2 class="text-center"> <b>NEWS FEED</b></h2>
+        <hr>
+
+        <div class="container mt-2">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item ">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  <strong> 'Fearless, brilliant, fantastic' - Jos Buttler in awe of Rishabh Pant </strong>
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="row" >
+                  <div class="col-md-4" >
+                  <img src="images/A1.jpg" alt=""  class="img-fluid p-3">
+                 </div>
+                  <div class="col-md-8 p-4">
+                  <strong>Rishabh Pant</strong> was named 'Player of the Match' for his brilliant unbeaten century that helped India beat England by five wickets in the third ODI at Old Trafford in Manchester and seal the series 2-1. Coming in to bat with India in trouble at 21/2, Pant hit 125* to help India chase down the 260-run target with just under eight overs to spare. As the team celebrated after the post-match presentation ceremony, the 24-year-old was seen running to former Team India head coach Ravi Shastri with the champagne bottle he was given as his 'Player of the Match' award.
+                </div>
+              </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <strong>Ravindra Jadeja's Acrobatic Catch Removes Jos Buttler During Third ODI</strong> 
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="row" >
+                  <div class="col-md-4" >
+                  <img src="images/a2.jpg" alt=""  class="img-fluid p-3">
+                 </div>
+                  <div class="col-md-8 p-4">
+                  <strong>Jadeja </strong>takes two incredible boundary line catches as Livingstone, Buttler fall into Hardik's trap.
+                  Ravindra Jadeja gave another example of why he is regarded among the best fielders in world by taking two sensational catches on the boundary line. Both happened in the 37th over of the game which was bowled by Hardik Pandya that saw England's dangerous pair of Jos Buttler and Livingstone depart.
+                </div>
+              </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingthree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsethree" aria-expanded="false" aria-controls="collapsethree">
+                  <strong> Ben Stokes to retire from ODI cricket after Chester-le-Street farewell </strong>
+                </button>
+              </h2>
+              <div id="collapsethree" class="accordion-collapse collapse" aria-labelledby="headingthree" data-bs-parent="#accordionExample">
+                <div class="row" >
+                  <div class="col-md-4" >
+                  <img src="images/a3.jpg" alt=""  class="img-fluid p-3">
+                 </div>
+                  <div class="col-md-8 p-4">
+                  <strong>England all-rounder</strong> Ben Stokes announced his retirement from One Day Internationals on Monday. He confirmed that the first ODI match against South Africa on Tuesday (July 19) will be his last. Stokes took the decision to manage his workload as he feels playing all three formats is unsustainable for him at the moment.
+                  “I will play my last game for England in ODI cricket on Tuesday in Durham. I have decided to retire from this format. This has been an incredibly tough decision to make. I have loved every minute of playing with my mates for England. We have had an incredible journey on the way," Stokes said in a statement.
+                </div>
+              </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingfour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                  <strong> End of an era: West Indies dasher retires from international cricket </strong>
+                </button>
+              </h2>
+              <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour" data-bs-parent="#accordionExample">
+                <div class="row" >
+                  <div class="col-md-4" >
+                  <img src="images/A4.jpg" alt=""  class="img-fluid p-3">
+                 </div>
+                  <div class="col-md-8 p-4">
+                  <strong>West Indies</strong> veteran Lendl Simmons has put a full stop on his international career by announcing his immediate retirement from cricket at the highest level.
+    
+                  Simmons announced the news via his sports agency 124notout, with the talented batter finishing his career with a total of 3,763 runs for West Indies from 144 matches over all three formats.
+                </div>
+              </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingfive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+                  <strong> Ferguson, Phillips star as New Zealand take 1-0 T20I series lead </strong>
+                </button>
+              </h2>
+              <div id="collapsefive" class="accordion-collapse collapse" aria-labelledby="headingfive" data-bs-parent="#accordionExample">
+                <div class="row" >
+                  <div class="col-md-4" >
+                  <img src=images/a5.jpg" alt=""  class="img-fluid p-3">
+                 </div>
+                  <div class="col-md-8 p-4">
+                  <strong>Glenn Phillips</strong>  starred with the bat to lead New Zealand out of early trouble and Lockie Ferguson then closed the game with four wickets in the first T20I between New Zealand and Ireland in Belfast.
+                </div>
+              </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingsix">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
+                  <strong>Former West Indies captain announces retirement from international cricket</strong>
+                </button>
+              </h2>
+              <div id="collapsesix" class="accordion-collapse collapse" aria-labelledby="headingsix" data-bs-parent="#accordionExample">
+                <div class="row" >
+                  <div class="col-md-4" >
+                  <img src="images/a6.jpg" alt=""  class="img-fluid p-3">
+                 </div>
+                  <div class="col-md-8 p-4">
+                  <strong>Wicketkeeper-batter</strong>  and former West Indies Test skipper Denesh Ramdin has decided to retire from international cricket.
+                  He will continue to play in franchise cricket. Ramdin represented West Indies in 74 Test matches, 139 ODIs and 71 T20Is. He scored 2898 runs in the longest format, with four centuries. He accumulated 2200 runs in ODIs with two centuries and scored a further 636 runs T20I cricket. 
+                </div>
+              </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingseven">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseseven" aria-expanded="false" aria-controls="collapseseven">
+                  <strong>Rankings boost for India after eye-catching series triumph</strong>
+                </button>
+              </h2>
+              <div id="collapseseven" class="accordion-collapse collapse" aria-labelledby="headingseven" data-bs-parent="#accordionExample">
+                <div class="row" >
+                  <div class="col-md-4" >
+                  <img src="images/a7.jpg" alt=""  class="img-fluid p-3">
+                 </div>
+                  <div class="col-md-8 p-4">
+                  <strong>India's</strong>narrow series triumph over England away from home has seen Rohit Sharma's side cling on to third place just ahead of Pakistan on the latest Men's ODI Team Rankings.
+                  A maiden ODI century to Rishabh Pant helped India clinch a 2-1 series victory over England on Sunday and in the process ensured they held on to third spot behind New Zealand on the current rankings.
+                </div>
+              </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingeight">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseeight" aria-expanded="false" aria-controls="collapseeight">
+                  <strong>Zampa returns as Australia name squad for New Zealand and Zimbabwe</strong>
+                </button>
+              </h2>
+              <div id="collapseeight" class="accordion-collapse collapse" aria-labelledby="headingeight" data-bs-parent="#accordionExample">
+                <div class="row" >
+                  <div class="col-md-4" >
+                  <img src="images/a8.jpg" alt=""  class="img-fluid p-3">
+                 </div>
+                  <div class="col-md-8 p-4">
+                  <strong>White-ball</strong> specialist Adam Zampa has been named to make his return to international cricket after he was included in Australia's 14-player squad for upcoming ODI series against New Zealand and Zimbabwe.
+                  Zampa sat out the recent tour of Sri Lanka as he welcomed his first child into the world, but the talented leg-spinner has been named in a strong squad for the matches in Queensland in August and September.
+                </div>
+              </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingnine">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsenine" aria-expanded="false" aria-controls="collapsenine">
+                 <strong>Virat Kohli gives a classy response to Babar Azam's backing</strong>
+                </button>
+              </h2>
+              <div id="collapsenine" class="accordion-collapse collapse" aria-labelledby="headingnine" data-bs-parent="#accordionExample">
+                <div class="row" >
+                  <div class="col-md-3" >
+                    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">This too shall pass. Stay strong. <a href="https://twitter.com/hashtag/ViratKohli?src=hash&amp;ref_src=twsrc%5Etfw">#ViratKohli</a> <a href="https://t.co/ozr7BFFgXt">pic.twitter.com/ozr7BFFgXt</a></p>&mdash; Babar Azam (@babarazam258) <a href="https://twitter.com/babarazam258/status/1547657073587933190?ref_src=twsrc%5Etfw">July 14, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                 </div>
+                  <div class="col-md-8 p-4">
+                    When asked to elaborate upon his tweet, Babar stated in his press conference ahead of the first Test against Sri Lanka, "I just feel that in the present situation Kohli needs support and to be backed. I tweeted wishing him the best because I know how a player feels when he is going through this period and he needs the support of everyone."  <br> <br>Kohli has recently struggled for form, leading to criticism in sections of the media surrounding his place in the Indian setup. Former Indian skipper Kapil Dev also suggested that India should pick players on form, and not their reputation. 
+    
+                    Missing the first ODI against England with a groin injury, Kohli made just 16 in the second match, which India lost by 100 runs at Lord's.
+                    
+                    It means the right-hander has now gone 77 consecutive international innings without reaching three figures, after scores of 1 and 11 in the T20I series and failures in the rescheduled fifth Test.
+                </div>
+              </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingten">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseten" aria-expanded="false" aria-controls="collapseten">
+                  <strong>Veteran Bangladesh star announces T20I retirement</strong>
+                </button>
+              </h2>
+              <div id="collapseten" class="accordion-collapse collapse" aria-labelledby="headingten" data-bs-parent="#accordionExample">
+                <div class="row" >
+                  <div class="col-md-4" >
+                  <img src="images/a10.jpg" alt=""  class="img-fluid p-3">
+                 </div>
+                  <div class="col-md-8 p-4">
+                  <strong>The star batter</strong> announced his retirement from the shortest form of the game after Bangladesh's 3-0 whitewash over West Indies in the ODI series.
+                  Bangladesh opener Tamim Iqbal called time on his T20I career, announcing his retirement via Facebook.
+                  In the aftermath of The Tigers' thumping series win over West Indies away from home, Tamim wrote on his official Facebook page: "Consider me retired from T20 internationals from today. Thanks everyone."
+                  Having made his T20I debut in 2007.
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br><br><br><br>
+
+    <!-- ************************************foooterr sectionnn******************************************* -->
+      
+
+
+
+
+     <!-- Footer -->
+<footer class="bg-dark text-center text-white">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button" style="background-color: #3b5998;"><i class="fab fa-facebook-f"></i
+      >    </a>
+
+      <!-- Twitter -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button" style="background-color: #55acee;"
+        ><i class="fab fa-twitter"></i
+      ></a>
+
+      <!-- Google -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"  style="background-color: #dd4b39;"
+        ><i class="fab fa-google"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button" style="background-color: #ac2bac;"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button" style="background-color: #0082ca;"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Form -->
+    <section class="">
+      <form action="">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-auto">
+            <p class="pt-2">
+              <strong>Sign Up for Latest News Notificatons</strong>
+            </p>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-5 col-12">
+            <!-- Email input -->
+            <div class="form-outline form-white mb-4 border-bottom">
+              <input type="email" id="form5Example21" class="form-control" />
+              <label class="form-label" for="form5Example21"> Enter Email address</label>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-auto">
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-outline-light mb-4">
+              Subscribe
+            </button>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </form>
+    </section>
+    <!-- Section: Form -->
+
+    <!-- Section: Text -->
+    <section class="mb-4">
+      <p>
+        Hitwicket is a cricket website and mobile app. A Home of all cricket updates and records. <br> Subscribe now and get all updates through email.
+      </p>
+      <br>
+    </section>
+    <!-- Section: Text -->
+
+    <!-- Section: Links -->
+    <section class="">
+      <!--Grid row-->
+      <div class="row d-flex justify-content-center">
+       
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Mobile Site and Apps</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white"><i class="fab fa-android"></i> Android</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white"><i class="fab fa-apple"></i> IOS</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Quick Links</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">T20 World Cup 2022</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">ICC Rankings </a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Fantasy Picks</a>
+            </li>
+
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">COMPANY</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">Carrers</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Advertise</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Privacy Policy</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Terms of Use</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </section>
+    <!-- Section: Links -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2020 Copyright:
+    <a class="text-white" href="https://mdbootstrap.com/">Hit-Wicket Cricket</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
